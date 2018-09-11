@@ -129,7 +129,7 @@ image_minifier:
 #   tagMode: false
 #   debug: false
 #   model:
-#     use: live2d-widget-model-koharu
+#     use: live2d-widget-model-hibiki
 #   display:
 #     position: right
 #     width: 150
@@ -144,7 +144,7 @@ live2d:
     scale: 1
     hHeadPos: 0.5
     vHeadPos: 0.618
-    use: live2d-widget-model-wanko // 下载的动画模型名称
+    use: live2d-widget-model-wanko
   display:
     superSample: 2
     width: 120
@@ -157,4 +157,4 @@ live2d:
     scale: 0.5
   react:
     opacityDefault: 0.7
-    opacityOnHover: 0.2
+    opacityOnHover: 0.6
